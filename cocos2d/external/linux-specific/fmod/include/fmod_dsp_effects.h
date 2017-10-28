@@ -174,7 +174,7 @@ typedef enum
     Parameter types for the FMOD_DSP_TYPE_ECHO filter.
 
     [REMARKS]
-    Note.  Every time the delay is changed, the plugin re-allocates the echo buffer.  This means the echo will dissapear at that time while it refills its new buffer.<br>
+    Note.  Every time the delay is changed, the plugin re-allocates the echo buffer.  This means the echo will disappear at that time while it refills its new buffer.<br>
     Larger echo delays result in larger amounts of memory allocated.<br>
 
     [SEE_ALSO]
@@ -388,7 +388,7 @@ typedef enum
     This is effectively a software based echo filter that emulates the DirectX DMO echo effect.  Impulse tracker files can support this, and FMOD will produce the effect on ANY platform, not just those that support DirectX effects!<br>
 
     [REMARKS]
-    Note.  Every time the delay is changed, the plugin re-allocates the echo buffer.  This means the echo will dissapear at that time while it refills its new buffer.<br>
+    Note.  Every time the delay is changed, the plugin re-allocates the echo buffer.  This means the echo will disappear at that time while it refills its new buffer.<br>
     Larger echo delays result in larger amounts of memory allocated.<br>
     <br>
     As this is a stereo filter made mainly for IT playback, it is targeted for stereo signals.<br>
@@ -510,7 +510,7 @@ typedef enum
     Parameter types for the FMOD_DSP_TYPE_DELAY filter.
 
     [REMARKS]
-    Note.  Every time MaxDelay is changed, the plugin re-allocates the delay buffer.  This means the delay will dissapear at that time while it refills its new buffer.<br>
+    Note.  Every time MaxDelay is changed, the plugin re-allocates the delay buffer.  This means the delay will disappear at that time while it refills its new buffer.<br>
     A larger MaxDelay results in larger amounts of memory allocated.<br>
     Channel delays above MaxDelay will be clipped to MaxDelay and the delay buffer will not be resized.<br>
     <br>
